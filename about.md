@@ -1,5 +1,4 @@
----
-layout: page
+yout: page
 title: "About"
 description: ""
 ---
