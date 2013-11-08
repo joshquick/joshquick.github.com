@@ -9,7 +9,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Loman Lab Protocols
-tagline: We have all the protocols
+tagline: Open access protocols for next-generation sequencing
 author :
   name : Josh Quick
   email : j.quick@bham.ac.uk
@@ -24,7 +24,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://joshquick.github.io
+production_url : http://joshquick.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
