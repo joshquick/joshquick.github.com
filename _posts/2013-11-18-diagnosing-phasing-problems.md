@@ -24,7 +24,7 @@ Historically, the phasing and pre-phasing were estimated over the first 12 cycle
 D:\Illumina\MiSeqAnalysis\131118_M00875_0072_000000000-A6B08\Data\Intensities\BaseCalls\Phasing\EmpiricalPhasingCorrection_1_1_1101.txt
 ```
 
-Plotting this can help diagnose problems, shown below is a good run and a bad run - can you tell which is which?! In the bottom run the pre-phasing was so bad it actually reached the maximum allowable pre-phasing value of 0.6%.
+Plotting this can help diagnose problems, shown below is a good run and a bad run - can you tell which is which?! In the bottom run the pre-phasing was so bad it actually reached the maximum allowable pre-phasing correction of 0.6. As this are cumulative values the actual phasing per cycle is the gradient of the line (approximately 0.1% in the good run).
 
 <img src="/images/emp_phasing2.png" alt="Empirical phasing 2" width="575">
 <img src="/images/emp_phasing1.png" alt="Empirical phasing 1" width="575">
