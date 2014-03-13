@@ -12,7 +12,7 @@ tags: []
 After installing the Aspera client for Linux you can access the command line function from your home directory:
 
 ``` bash
-~/.aspera/connect/bin/ascp -QT -l 300m -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/fastq/ERR000/ERR000000/ERR000000_1.fastq.gz
+/home/.aspera/connect/bin/ascp -QT -l 300m -i /home/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/fastq/ERR000/ERR000000/ERR000000_1.fastq.gz
 ```
 
 If you want to download files for all the samples in a particular study, the easiest way is to use the Download: TEXT link to download the search results in text form. This contains the addresses for each of the files and you can also use GNU parallel to speed up the download. For example to download the read one fastq files the study 'PRJEB1508', use the following command:
