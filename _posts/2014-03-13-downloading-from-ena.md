@@ -18,5 +18,5 @@ After installing the Aspera client for Linux you can access the command line fun
 If you want to download files for all the samples in a particular study, the easiest way is to use the Download: TEXT link to download the search results in text form. This contains the addresses for each of the files and you can also use GNU parallel to speed up the download. For example to download the read one fastq files the study 'PRJEB1508', use the following command:
 
 ``` bash
-parallel --jobs 8 ~/.aspera/connect/bin/ascp -QT -l 300m -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:{} sra/ :::: <(cut -f 10 PRJEB1508.text | cut -f 1 -d ';' | cut -d '/' -f 2-)
+parallel --jobs 8 /home/.aspera/connect/bin/ascp -QT -l 300m -i /home/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:{} sra/ :::: <(cut -f 10 PRJEB1508.text | cut -f 1 -d ';' | cut -d '/' -f 2-)
 ```
