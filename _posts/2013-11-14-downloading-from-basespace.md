@@ -12,7 +12,7 @@ tags: []
 First you save the cookies into a file, and post the login data:
 
 ``` bash
-wget --keep-session-cookies --save-cookies cookies.txt --post-data="Username=XXXXX@bham.ac.uk&Password=XXXXX" "https://icom.illumina.com/login?service=basespace"
+wget --keep-session-cookies --save-cookies cookies.txt --post-data="Username=XXXXX@bham.ac.uk&Password=XXXXX" "https://accounts.illumina.com/login?service=basespace"
 ```
 
 Then download the file:
